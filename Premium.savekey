@@ -3,4 +3,4 @@
 getgenv().SaveKey = getgenv().SaveKey or false
 getgenv().Yourkey = getgenv().Yourkey or ""
 
-loadstring(game:HttpGet("https://luashield-vr4g.onrender.com/api/raw/7247a1a8-88e0-4b3a-b98b-939a9e483095/obfuscated"))()
+loadstring(game:HttpGet("https://pastebin.com/raw/WhHrm1eG"))()
