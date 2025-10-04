@@ -21,4 +21,4 @@ else
     print("[DYHUB] Key accepted, Auto System Activated!")
 end
 
-loadstring(game:HttpGet("https://pastebin.com/raw/gydAZudL"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/dyumra/Premium/refs/heads/main/Premium.dyhub"))()
