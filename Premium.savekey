@@ -11,14 +11,4 @@
 @ Premium - DYHUB (dsc.gg/dyhub)
 --]]
 
-getgenv().SaveKey = getgenv().SaveKey or false
-getgenv().YourKey = getgenv().SaveKey
-getgenv().DYHUB = getgenv().YourKey or "What are you doing in here?"
-
-if getgenv().DYHUB == "Access Denied: Invalid Key!" then
-    warn("[DYHUB] Unauthorized access detected!")
-else
-    print("[DYHUB] Key accepted, Auto System Activated!")
-end
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/dyumra/Premium/refs/heads/main/Premium.dyhub"))()
+loadstring(game:HttpGet("https://pastefy.app/JqIAevN4/raw"))()
